@@ -1,1 +1,0 @@
-# SMTH.github.io
