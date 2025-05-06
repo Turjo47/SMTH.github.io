@@ -30,10 +30,38 @@ body{
     text-decoration: none;
     color: white;
 }
-section{
-    padding: 1.5rem;
-    margin: 1rem;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,1);
+hr{
+    border: none;
+    height: 2px;
+    background-color: #444;
+}
+.container-intro{
+    display: flex;
+    padding: 100px; 
+}
+.container-intro p{
+    margin-bottom: -15px;
+    text-align: left;
+}
+#name{
+    font-size: 50px;
+}
+.info h3{
+    padding-top:40px;
+    color:#c6c6c6;
+}
+#lang{
+    margin-top: -15px;
+}
+.img{
+    padding-left: 400px;
+}
+.img img{
+    height: 20rem;
+    height: 20rem;
+    border-radius:50%
+}
+
+main{
+    padding:100px;
 }
