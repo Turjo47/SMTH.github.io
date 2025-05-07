@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -16,6 +19,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 20px;
     
 }
 .logo{
@@ -30,18 +34,22 @@ body{
     text-decoration: none;
     color: white;
 }
-hr{
+#full-line{
+    width: 100%;
     border: none;
-    height: 2px;
+    height: 1px;
     background-color: #444;
+    margin: 0;
 }
 .container-intro{
     display: flex;
     padding: 100px; 
+    padding-top: 20px;
 }
 .container-intro p{
-    margin-bottom: -15px;
+    margin-bottom: 0;
     text-align: left;
+    padding-bottom: px;
 }
 #name{
     font-size: 50px;
@@ -51,19 +59,27 @@ hr{
     color:#c6c6c6;
 }
 #lang{
-    margin-top: -15px;
+    margin-top: 0;
     margin-bottom: 20px;
 }
 .info a{
+    font-size: 18px;
     text-decoration: none;
-    font-size: 20px;
     color: rgb(0, 140, 255);
 }
 .info i{
     color:rgb(0, 140, 255);
 }
-
+.connect{
+    border: 0px;
+    color:rgb(0, 140, 255);
+    padding-top: 20px;
+}
+.connect tr td{
+    padding-right: 20px;
+}
 .img{
+    padding-top: 40px;
     padding-left: 400px;
 }
 .img img{
@@ -72,6 +88,45 @@ hr{
     border-radius:50%
 }
 
-main{
-    padding:100px;
+.main-body{
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#about h2{
+    font-size: 50px;
+}
+#about p{
+    text-align: left;
+    font-size: 18px;
+}
+#about a{
+    text-decoration: none;
+    color: rgb(0, 140, 255);
+}
+table{
+    
+}
+#skills h2{
+    font-size: 50px;
+}
+#skill-icon td{
+    padding-left: 20px;
+}
+#skill-icon img{
+    height: 50px;
+    width: 50px;
+}
+#skill-name td{
+    display: inline-block;
+    color: rgb(198, 191, 181);
+    background-color:rgb(17, 36, 50);
+    border-radius:8px;
+    border-color: black;
+    
+    
+
+    
+
+
 }
