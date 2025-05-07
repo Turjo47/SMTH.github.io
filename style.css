@@ -128,10 +128,24 @@ table{
 #work h2{
     font-size: 50px;
 }
-#work img{
-    height: 300px;
-    width: 400px;
-}
-#work tr td{
+.work-layout{
+    display: flex;
     
+}
+.logo-side img{
+    height: 50px;
+    width: 50px;
+    padding-right: 50px;
+
+}
+.work-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.work-description h3{
+    margin: 0;
+}
+.work-description p{
+    margin: 0;
 }
