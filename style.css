@@ -117,16 +117,21 @@ table{
     height: 50px;
     width: 50px;
 }
-#skill-name td{
+.highlight {
+    color: rgb(173, 171, 171);
+    background-color: #05273d;
+    padding: 2px 6px;
+    border-radius: 10px;
     display: inline-block;
-    color: rgb(198, 191, 181);
-    background-color:rgb(17, 36, 50);
-    border-radius:8px;
-    border-color: black;
+    margin-right: 12px;
+}
+#work h2{
+    font-size: 50px;
+}
+#work img{
+    height: 300px;
+    width: 400px;
+}
+#work tr td{
     
-    
-
-    
-
-
 }
